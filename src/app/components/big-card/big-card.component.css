@@ -1,0 +1,44 @@
+.container__big-card {
+    display: flex;
+    width: 59rem;
+    height: 30rem;
+    align-items: center;
+}
+
+.big-card__photo > img {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.container__description {
+    margin-left: 30px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+
+} 
+
+.container__description > button {
+    height: 50px;
+    font-size: large;
+    width: 250px;
+    border-radius: 50px;
+    border: none;
+    background-color: #1fcaae;
+    cursor: pointer;
+}
+
+.big-card__description > p {
+    font-size: 18px;
+    color: rgb(187, 187, 187);
+}
+
+.big-card__title {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+

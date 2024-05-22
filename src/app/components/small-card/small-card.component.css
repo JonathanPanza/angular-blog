@@ -1,0 +1,17 @@
+a {
+    text-decoration: none;
+}
+
+.small-card__photo > img {
+    border-radius: 20px;
+}
+
+.small-card__title {
+    margin-top: 10px;
+}
+
+.container__small-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
