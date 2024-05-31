@@ -25,7 +25,6 @@
     background-color: transparent
 }
 
-
 .container__description > button {
     height: 50px;
     font-size: large;
@@ -41,7 +40,6 @@
 .container__description > button:hover {
     background: linear-gradient(90deg, #0d695a, rgb(1, 41, 44));
 }
-
 .big-card__description > p {
     font-size: 18px;
     color: rgb(187, 187, 187);

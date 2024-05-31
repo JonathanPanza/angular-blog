@@ -22,6 +22,7 @@
     display: flex;
     justify-content: space-around;
 }
+
 .menuLogo {
     display: flex;
     align-items: center;
@@ -33,6 +34,7 @@
     margin-left: 20px;
     cursor: pointer;
 }
+
 
 .menuLogo > p {
     margin-top: 30px;
@@ -51,6 +53,7 @@ a {
     content: " ";
     width: 0%;
     height: 7px;
+
     background: linear-gradient(90deg, #1fcaae, rgb(1, 71, 77));
     position: absolute;
     bottom: 0;
