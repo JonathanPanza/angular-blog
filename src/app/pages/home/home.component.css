@@ -1,0 +1,19 @@
+.container__articles {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+
+.articles__others {
+    display: flex;
+    width: 59rem;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+hr {
+    margin-top: 1.5rem;
+    background-color: #020024;
+    border-radius: 100%;
+}

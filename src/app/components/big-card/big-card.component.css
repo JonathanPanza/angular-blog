@@ -1,0 +1,57 @@
+.container__big-card {
+    display: flex;
+    width: 59rem;
+    height: 30rem;
+    align-items: center;
+}
+
+.big-card__photo > img {
+    border-radius: 20px;
+}
+
+.big-card__title > h1 {
+    font-size: 35px;
+}
+
+.container__description {
+    margin-left: 30px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+} 
+
+.container__description > button > a {
+    background-color: transparent
+}
+
+
+.container__description > button {
+    height: 50px;
+    font-size: large;
+    width: 250px;
+    border-radius: 50px;
+    border: none;
+    background: linear-gradient(90deg, #1fcaae, rgb(1, 71, 77));
+    text-decoration: none;
+    transition:  0.3s ease;
+    cursor: pointer;
+}
+
+.container__description > button:hover {
+    background: linear-gradient(90deg, #0d695a, rgb(1, 41, 44));
+}
+
+.big-card__description > p {
+    font-size: 18px;
+    color: rgb(187, 187, 187);
+}
+
+.big-card__title {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
