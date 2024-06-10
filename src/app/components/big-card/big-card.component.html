@@ -9,17 +9,18 @@
     <div class="container__description">
 
         <div class="big-card__title">
-            <h1><a href="#">{{ cardTitle }}</a></h1>
+            <h1><a [routerLink] = "['content', Id]">{{ cardTitle }}</a></h1>
         </div>
 
         <div class="big-card__description">
             <p>{{ cardDescription }}</p>
         </div>
         
-        <button><a
-            href="https://uk.news.yahoo.com/hidden-planet-at-edge-of-our-solar-system-could-be-five-times-the-size-of-earth-155742722.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAE-1TpbH-0QoWumKH4y3QF-p-f267aD1XuZxNwhA3EabCi6bb1D-p071el44yYjxo8SDbonF8tzRak_jTfhSXm7mMse_7fbQi4H6tlp6e7VEPjDsnGLve3nv20t9UX3i7JBqySBHHonwNHPFRL6vbzmLECrJKRaAuuFOTNclp23b"
+        <button><a 
+            [routerLink] = "['content', Id]"
             >
-                Continue Reading ->
+                Continue Reading 
+                <i class="ph ph-arrow-right"></i>
             </a>
         </button>
     </div>

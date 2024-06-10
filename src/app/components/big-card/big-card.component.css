@@ -22,7 +22,9 @@
 } 
 
 .container__description > button > a {
-    background-color: transparent
+    background-color: transparent;
+    font-size: 20px;
+
 }
 
 .container__description > button {
@@ -33,12 +35,12 @@
     border: none;
     background: linear-gradient(90deg, #1fcaae, rgb(1, 71, 77));
     text-decoration: none;
-    transition:  0.3s ease;
     cursor: pointer;
 }
 
 .container__description > button:hover {
     background: linear-gradient(90deg, #0d695a, rgb(1, 41, 44));
+    transition:  0.3s ease;
 }
 .big-card__description > p {
     font-size: 18px;
@@ -51,5 +53,10 @@
 
 a {
     text-decoration: none;
+}
+
+.container__description > button > a > i{
+    background: transparent;
+    font-size: 20px;
 }
 

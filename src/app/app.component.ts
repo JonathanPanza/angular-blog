@@ -1,14 +1,15 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule, RouterOutlet } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
+import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   standalone: true,
-  imports: [RouterOutlet, HomeComponent],
+  imports: [RouterModule, RouterOutlet, HomeComponent, MenuBarComponent],
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'new-angular-blog';
+  title = 'angular-blog';
 }

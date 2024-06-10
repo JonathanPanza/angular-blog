@@ -23,12 +23,12 @@
     justify-content: space-around;
 }
 
-.menuLogo {
+.menuLogo > a {
     display: flex;
     align-items: center;
 }
 
-.menuLogo > h1 {
+.menuLogo > a > h1 {
     margin-top: 5px;
     font-size: 50px;
     margin-left: 20px;
@@ -36,7 +36,7 @@
 }
 
 
-.menuLogo > p {
+.menuLogo > a > p {
     margin-top: 30px;
     font-size: 20px;
     cursor: pointer;
